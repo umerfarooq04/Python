@@ -3,3 +3,10 @@ def greet(name):
     return f"Hello, {name}!"
 
 print(greet("Umer"))
+
+def farewell(name):
+    return f"Goodbye, {name}!"
+
+print(greet("Umer"))
+print(farewell("Umer"))
+
