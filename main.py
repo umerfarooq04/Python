@@ -1,7 +1,7 @@
 # main.py
 from utils import add, subtract, multiply, divide
 
-
+from utils import is_even
 
 def greet(name):
     return f"Hello, {name}!"
@@ -30,3 +30,10 @@ print(f"Add: {add(x, y)}")
 print(f"Subtract: {subtract(x, y)}")
 print(f"Multiply: {multiply(x, y)}")
 print(f"Divide: {divide(x, y)}")
+
+
+num = int(input("Enter a number: "))
+if is_even(num):
+    print("It's even.")
+else:
+    print("It's odd.")
